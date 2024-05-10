@@ -36,3 +36,17 @@ console.log("B",myArr2 );
 const myn2 = myArr2.splice(1,3)
 console.log(myn2);
 console.log("C",myArr2 ); //{manupulate kiya hai}
+
+
+
+
+
+
+const marvel_hero = ["thor","spiderman","ironman"]
+const dc_hero = ["flash","superman","batman"]
+
+//const my_all_hero = marvel_hero.concat(dc_hero)
+//console.log(my_all_hero);
+
+const my_all_hero = [...marvel_hero, ...dc_hero]
+console.log(my_all_hero);
